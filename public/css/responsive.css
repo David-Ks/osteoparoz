@@ -1,0 +1,213 @@
+@media only screen and (max-width: 1600px) {
+  span.admin {
+    font-size: 33px;
+  }
+
+  div.stud-title {
+    text-align: center;
+    margin-left: 0%;
+  }
+  
+  div.frax-text {
+    margin-left: -59px;
+  }
+
+  ul.foot-btns {
+    font-size: 19px;
+  }
+
+  li.ft-btn {
+    margin: 50px 20px 50px 20px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  div.service-card-text {
+    font-size: 25px;
+  }
+
+  div.frax-text {
+    margin-left: -22px;
+  }
+
+  ul.foot-btns {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  img.imag {
+    min-height: 300px;
+  }
+
+  div.team-card-img {
+    min-height: 300px;
+  }
+  
+  div.frax-text {
+    margin-left: -32px;
+  }
+
+  div.title {
+    min-height: 90px;
+  }
+
+  button.nav-btn {
+    padding: 0 19px 0 19px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  span.admin {
+    font-size: 25px;
+  }
+
+  div.frax-text {
+    margin-left: -12px;
+  }
+
+  div.frax-label {
+    margin-left: 10%;
+    width: 18%;
+  }
+
+  div.service-card-text {
+    font-size: 20px;
+  }
+
+  div.footer-logo {
+    position: relative;
+  }
+
+  ul.foot-btns {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  span.admin {
+    font-size: 25px;
+  }
+
+  div.service-card-div {
+    padding: 0 10% 0 10%;
+  }
+
+  div.service-card-img-div {
+    margin-top: 0;
+  }
+
+  a.w-21a {
+    width: 50%;
+  }
+
+  img.nav-logo-2 {
+    top: 23px;
+    max-width: 35%;
+  }
+
+  img.nav-logo-1 {
+    max-width: 22%;
+  }
+
+  div.first-drop {
+    left: 0;
+  }
+
+  div.first-drop .arrow-up {
+    left: 20%;
+  }
+
+  div.first-drop button {
+    text-align: left;
+  }
+
+
+  div.foot-body {
+    display: inline !important;
+    text-align: center;
+  }
+
+  div.asdf {
+    display: inline;
+  }
+
+  div.mapouter {
+    display: inline;
+  }
+
+  div.footer-form {
+    padding-top: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 1163px) {
+  div.edu-card {
+    max-width: 80%;
+  }
+
+  div.edu-card-img {
+    width: 80%;
+  }
+
+  div.edu-card-title {
+    text-align: center;
+  }
+
+  div.edu-card-content {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  div.login-div form{
+    width: 200%;
+  }
+
+  button.frax-btn {
+    left: 80%;
+  }
+
+  div.just-line {
+    display: none;
+  }
+
+  section.admin-panel {
+    width: 100%;
+  }
+
+  div.offcanvas {
+    width: 100% !important;
+  }
+
+  div.news-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  div.news-card-img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+
+  span.news-more-about {
+    margin-top: 20px;
+  }
+
+  img.pho-img {
+    margin: 5px;
+    width: 395px;
+    height: 381px;
+  }
+
+  div.hover-div {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin: 5px;
+    width: 395px;
+    height: 381px;
+  }
+}

@@ -1,0 +1,1103 @@
+body {
+    font-family: Noah;
+    font-style: normal;
+    overflow-x: unset;
+}
+
+nav.nav-bar {
+    background: #FFFFFF;
+}
+
+section.admin-panel {
+    width: 30%;
+    padding: 50px;
+}
+
+section.admin-panel button {
+    width: 100%;
+}
+
+section.photos {
+    text-align: center;
+    margin-top: 74px;
+}
+
+section.our-team {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section.services {
+    margin-top: 90px;
+}
+
+section.for-spec {
+    margin-top: 123px;
+    text-align: center;
+}
+
+section.patients {
+    text-align: center;
+    margin-top: 40px;
+    padding: 40px;
+}
+
+section.edu {
+    text-align: center;
+    margin-top: 71px;
+    padding: 40px;
+}
+
+footer.foot {
+    background: #17232E;
+}
+
+div.nav-with-logos {
+    height: 132px;
+}
+
+div.nav-btn-div {
+    height: 63px;
+}
+
+div.nav-logo-section-2 {
+    margin-left: 28%;
+    opacity: 0.2;
+    height: 100%;
+    margin-top: -132px;
+    border-left: 70px solid transparent;
+    border-top: 132px solid #2391AA;
+
+}
+
+div.nav-logo-section-1 {
+    height: 100%;
+    position: relative;
+}
+
+div.main-photo-div {
+    height: 655px;
+    background-color: gray;
+}
+
+div.frax-div {
+    background: #D3E9EE;
+    height: 156px;
+    display: flex;
+    align-items: center;
+}
+
+div.frax-label {
+    margin-left: 14%;
+    background: #F4F3F3;
+    border: 1px solid #2391AA;
+    box-sizing: border-box;
+    height: 73px;
+    width: 14%;
+}
+
+div.frax-text {
+    position: relative;
+    width: 67.7%;
+    min-height: 58px;
+    background: #2391AA;
+    margin-left: -79px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    z-index: 2; /*Test hishi*/
+}
+
+div.team-div-header {
+    border-bottom: 2px solid #2391AA;
+    position: relative;
+}
+
+div.team-logo-1 {
+    position: absolute;
+    height: 82px;
+    width: 80px;
+    background-color: gray;
+    top: -230%;
+}
+
+div.team-logo-2 {
+    height: 82px;
+    width: 80px;
+    background-color: gray;
+    display: inline-block;
+    margin-top: -82px;
+    position: relative;
+    top: 8px;
+}
+
+div.team-div {
+    width: 42.3%;
+}
+
+div.team-cards-div {
+    display: flex;
+    margin-top: 65px;
+    justify-content: center;
+}
+
+div.team-card {
+    transition-duration: 0.3s;
+    min-height: 533px;
+    width: 48.7%;
+}
+
+div.team-card:hover {
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+    transform: scale(1.03); /*I don't know!!*/
+}
+
+div.team-card:hover .card-text-name {
+    text-transform: uppercase;
+    color: #F15C58;
+    line-height: 26px;
+}
+
+div.team-card-img {
+    object-fit: cover;
+    min-height: 431px;
+}
+
+div.photos-div {
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.splide-div {
+    margin-top: 56px;
+    height: 319px;
+    width: 100%;
+    background: #2391AA;
+}
+
+img.imag {
+    width: 100%;
+    min-height: 492px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+img.fitt {
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+img.slide-image {
+    width: 209px;
+    height: 209px;
+    margin-top: 15%;
+    mix-blend-mode: luminosity;
+    opacity: 0.5;
+}
+
+img.pho-img {
+    width: 311px;
+    height: 311px;
+    margin-right: 20px;
+    flex: 0 0 17%;
+    margin-top: 20px;
+    object-fit: cover;
+}
+
+div.img-div:hover .hover-div {
+    display: block;
+}
+
+div.img-div {
+    position: relative;
+}
+
+div.hover-div {
+    margin-top: 20px;
+    display: none;
+    background: rgba(35, 145, 170, 0.54);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 311px;
+    height: 311px;
+}
+
+img.point-img {
+    width: 21px;
+    height: 21px;
+    margin-top: 10px;
+    margin-right: 24px;
+}
+
+img.nav-logo-2 {
+    opacity: 6 !important;
+    position: absolute;
+    top: 33px;
+    left: 34.4%;
+    max-width: 23.3%;
+    z-index: 2;
+}
+
+img.nav-logo-1 {
+    position: absolute;
+    left: 7.6%;
+    top: 33px;
+    max-width: 18%;
+}
+
+img.nav-phone {
+    display: inline-block;
+    
+}
+
+div.team-card-text {
+    text-align: center;
+    background: #F0F8FC;
+    min-height: 102px;
+    padding: 24px 0 24px 0;
+}
+
+div.service-card-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.service-card {
+    background: #2391AA;
+    min-height: 409px;
+    transition-duration: 0.2s;
+}
+
+a.w-21a {
+    width: 21.3%;
+}
+
+div.service-card:hover {
+    background: #F15C58;
+    transform: scale(1.09);
+}
+
+div.service-card-img {
+    height: 251px;
+    width: 100%;
+    display: inline-block;
+    background-color: grey;
+}
+
+div.service-card-img-div {
+    text-align: center;
+    margin-top: 20.69px;
+    padding: 20px 18% 10px 18%;
+    min-width: 57%;
+    min-height: 251px;
+}
+
+div.service-hr {
+    min-width: 22%;
+    border-bottom: 1px solid #C4C4C4;
+    margin-top: 49px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+div.service-card-text {
+    min-height: 130px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    padding: 0 20px 5px 20px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+div.for-spec-text {
+    font-weight: normal;
+    font-size: 30px;
+    max-width: 71%;
+    display: inline-block;
+    line-height: 45px;
+    text-align: center;
+    color: #17232E;
+    margin-top: 35px;
+}
+
+div.news {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+div.title {
+    text-align: left;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    margin-left: 12px;
+}
+
+div.for-docs {
+    width: 34%;
+}
+
+div.for-nurs {
+    width: 34%;
+}
+
+div.news-card {
+    padding: 10px;
+    min-height: 302px;
+    margin-top: 22px;
+}
+
+div.for-docs .news-card:hover {
+    background: #F0F8FC;
+}
+
+div.for-nurs .news-card:hover {
+    background: rgba(241, 92, 88, 0.1);
+}
+
+div.for-docs .news-card:hover .news-card-title {
+    color: #2391AA;
+}
+
+div.for-nurs .news-card:hover .news-card-title {
+    color: #F15C58;
+} 
+
+div.news-card-img {
+    float: left;
+    width: 140px;
+    height: 126px;
+    background: grey;
+    margin-right: 5px;
+}
+
+div.news-card-title {
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    min-height: 126px;
+}
+
+div.news-card-text {
+    margin-top: 10px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 10px;
+    color: #454547;
+}
+
+div.patients-title {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #2391AA;
+}
+
+div.patients-text {
+    display: inline-block;
+    text-align: center;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
+    color: #17232E;
+    width: 71%;
+    margin-top: 35px;
+}
+
+div.patients-card-div {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.pat-card {
+    width: 396px;
+}
+
+div.pat-card-header {
+    min-height: 411px;
+    background: #2391AA;
+}
+
+div.pat-card-title {
+    margin: 15px;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+div.pat-card-img {
+    height: 282px;
+    width: 395px;
+    background: grey;
+    margin-top: -2px;
+}
+
+div.pat-card-content {
+    text-align: left;
+    background: #DCF3EB;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: lowercase;
+    color: #454547;
+    padding: 14px;
+    display: inline-block;
+}
+
+div.patient-card-block {
+    margin-top: 10px;
+    margin-right: 1.1%;
+}
+
+div.patient-card-block:hover .pat-card-header {
+    background: #F15C58;
+}
+
+div.patient-card-block:hover .pat-card-content {
+    color: #F15C58;
+}
+
+div.patient-card-block:hover button {
+    background: #F15C58;
+}
+
+div.edu-title {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #2391AA;
+}
+
+div.edu-text {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
+    color: #454547;
+    width: 80%;
+    margin-top: 29px;
+    display: inline-block;
+}
+
+div.edu-card {
+    margin-top: 10px;
+    max-width: 530px; /*Der chgidem*/
+    padding-top: 29px;
+}
+
+div.edu-card-img {
+    display: inline-block;
+    width: 530px;
+    height: 381px;
+    background: grey;
+}
+
+div.edu-card-title {
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 35px;
+    color: #2391AA;
+    margin: 24px;
+    text-align: left;
+}
+
+div.edu-card-content {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    color: #454547;
+    margin: 0 24px 0 24px;
+    text-align: left;
+}
+
+div.edu-more {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    color: #2391AA;
+    text-align: right;
+    margin: 0 24px 36px 24px;
+}
+
+div.stud-title {
+    margin-left: 14%;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    margin-top: 85px;
+}
+
+div.videos {
+    display: flex;
+    justify-content: center;
+    margin-top: 21px;
+    min-height: 360px;
+    flex-wrap: wrap;
+}
+
+div.video-card {
+    min-height: 344px;
+    min-width: 531px;
+    margin: 10px;
+}
+
+div.pho-img:hover {  
+    background: rgba(35, 145, 170, 0.54);
+}
+
+div.video-img {
+    width: 100%;
+    height: 209px;
+    object-fit: cover;
+}
+
+div.video-title {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+    color: #2391AA;
+    text-align: left;
+    margin-top: 15px;
+}
+
+div.video-text {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+div.footer-form {
+    min-width: 41.9%;
+}
+
+div.foot-header {
+    position: relative;
+    width: 85.52%;
+    text-align: center;
+    display: inline-block;
+}
+
+div.footer-logo {
+    position: absolute;
+    top: 15%;
+    left: 1%;
+}
+
+div.foot-body {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+div.footer-form-head {
+    display: flex;
+    justify-content: center;
+    min-height: 100px;
+}
+
+div.footer-form-body {
+    padding: 10px 0 50px 25px;
+}
+
+div.soc-sites {
+    width: 100%;
+    text-align: right;
+}
+
+div.footer-footer {
+    height: 120px;
+    position: relative;
+    text-align: center;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: #2f3943;
+    padding: 2.5%
+}
+
+div.go-back {
+    position: fixed;
+    background: #F15C58;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    left: 90%;
+    bottom: 92px;
+    z-index: 4;
+    line-height: 3;
+    font-weight: bold;
+}
+
+div.address {
+    display: flex;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 40px;
+    color: #FFFFFF;
+    width: 50%;
+    text-align: left;
+    padding-left: 28px;
+}
+
+div.contacts {
+    position: relative;
+    text-align: right;
+    width: 50%;
+
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 14px;
+    color: #2391AA;
+    padding-top: 10px;
+}
+
+div.nav-contacts {
+    z-index: 2;
+    position: absolute;
+    top: -43px;
+    text-align: right;
+    width: 100%;
+    margin-right: 18px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 14px;
+    color: #17232E;
+}
+
+div.just-line {
+    box-shadow: 5px 5px 10px #0d6efd;
+    width: 30%;
+    z-index: -1;
+    position: absolute;
+    border-right: 2px solid #0d6efd;
+    height: 100vh;
+    min-height: 760px;
+}
+
+div.login-div {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+div.login-div form{
+    width: 500px;
+}
+
+ul.nav-btn-ul {
+    display: inline-flex;
+    width: 100%;
+    list-style-type: none;
+    height: 63px;
+    justify-content: right;
+}
+
+ul.foot-btns {
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 14px;
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    justify-content: right;
+}
+
+ul.foot-btns a {
+    color: #FFFFFF;
+}
+
+li.ft-btn {
+    margin: 50px 22px 50px 22px;
+}
+
+a.no-dec {
+    text-decoration: none;
+    color: black;
+}
+
+*.click-btn:active {
+    box-shadow: 5px 5px grey;
+}
+
+button.nav-btn {
+    background: #FFFFFF;
+    opacity: 1; /*0.8-i depqum guyn@ poxma*/
+    border: none;
+    padding: 0 27px 0 27px;
+    height: 100%;
+}
+
+button.nav-btn:hover {
+    background: #D3E9EE;
+}
+
+button.frax-btn {
+    position: absolute;
+    left: 80.5%;
+    background: #F15C58;
+    border: 3px solid #FFFDFD;
+    box-sizing: border-box;
+    border-radius: 30px;
+    min-width: 19%;
+    height: 48px;
+    color: white;
+}
+
+button.btn-more {
+    background: #F15C58;
+    border: 1px solid #F15C58;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 3px;
+    width: 13%;
+    height: 55px;
+}
+
+button.news-more-btn {
+    background: #F15C58;
+    border-radius: 3px;
+    height: 55px;
+    width: 38%;
+    display: inline-block;
+    color: #FFFFFF;
+    border: none;
+}
+
+button.pat-btn {
+    background: #B0ABA5;
+    border-radius: 3px;
+    color: white;
+    margin-top: 13px;
+    height: 55px;
+    width: 64%;
+    border: none;
+    display: inline-block;
+}
+
+button.edu-more-btn {
+    background: #F15C58;
+    border-radius: 3px;
+    color: white;
+    width: 13.2%;
+    height: 55px;
+    margin-top: 28px;
+    border: none;
+}
+
+button.send-btn {
+    width: 100%;
+    margin-top: 5px;
+    height: 50px;
+    background: #2391AA;
+    color: white;
+    border: none;
+}
+
+span.frax-span {
+    color: #F15C58;
+    font-size: 49px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 7%;
+}
+
+span.frax-text-span {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 28px;
+    margin-right: 19%;
+    display: inline-block;
+}
+
+span.admin {
+    font-weight: 1000px;
+}
+
+span.about-us {
+    font-weight: bold;
+    font-size: 50px;
+    display: block;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #2391AA;
+}
+
+span.team-div-span {
+    font-family: Noah;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 15px;
+}
+
+span.card-text-name {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 26px;
+
+    color: #2391AA;
+    display: block;
+}
+
+span.card-text-prof {
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #454547;
+    display: block;
+}
+
+span.services-title {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #2391AA;
+}
+
+span.upp {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+
+span.news-more-about {
+    z-index: 1;
+    padding-right: 2px;
+    display: block;
+    text-align: right;
+    width: 100%;
+
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    color: #F15C58;
+}
+
+span.bold-stud {
+    font-weight: 700;
+    color: #2391AA;
+}
+
+p.some-text {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 50px;
+
+    text-align: center;
+    width: 79%;
+    display: inline-block;
+    color: #454547;
+}
+
+img.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+form.form-btn-for-r {
+    position: absolute;
+    top: -58px;
+    left: 140px;
+}
+
+*.width-40 {
+    width: 40%;
+}
+
+*.form-input {
+    color: white;
+    background: #182e3a;
+    border: 1px solid #2e3942;
+}
+
+*.form-control::placeholder {
+    opacity: 1;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #D3E9EE;
+}
+
+*.mt-100 {
+    margin-top: 100px;
+}
+
+*.mt-60 {
+    margin-top: 60px;
+}
+
+*.mr-1p {
+    margin-right: 1.1%;
+}
+
+*.mr-2p {
+    margin-right: 2.5%;
+}
+
+*.h-50px {
+    height: 50px;
+}
+
+*.h-157px {
+    height: 179px;
+}
+
+*.inline {
+    display: inline;
+}
+
+*.block {
+    display: block;
+}
+
+*.top-2px {
+    top:2px;
+}
+
+*.red {
+    color: #F15C58;
+}
+
+*.splide__pagination__page {
+    display: none !important;
+}
+
+*.no-vertical-align {
+    vertical-align: unset !important;
+}
+
+*.red-border {
+    border-color: #F15C58 !important;
+}
+
+*.blue {
+    color: #3891A3;
+}
+
+*.blue-border {
+    border-color: #3891A3 !important;
+}
+
+*.flex {
+    display: flex;
+}
+
+*.displey-block {
+    display: block;
+}
+
+*.displey-inline {
+    display: inline;
+}
+
+*.text-left-imp {
+    text-align: left !important;
+}
+
+*.margin {
+    margin: 20px 20px 0 0;
+}
+
+*.color-0 { background: #FFE7EC; }
+*.color-1 { background: #DCF3EB; }
+*.color-2 { background: #FFF0CD; }
+
+.mapouter{position:relative;text-align:right;width:41.9%;height:459px;}
+.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:459px;}
+.gmap_iframe {height:459px!important;}
+
+
+/* ======== Drop Downs ========*/
+ul.dropdown {
+    position: relative;
+}
+
+ul.dropdown li {
+    position: relative;
+}
+
+ul.dropdown li:hover .dropdown-content{
+    display: block;
+}
+
+
+div.dropdown-content {
+    display: none;
+    background: white;
+    text-align: right;
+    right: 0;
+    min-width: 279px;
+    position: absolute;
+}
+
+div.arrow-up {
+    position: relative;
+    left: 80%;
+    width: 0;
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 8px solid #2391AA;
+}
+
+button.dropdown-content-btn {
+    width: 100%;
+    min-height: 47px;
+    background: #2391AA;
+    margin-top: 3px;
+    border: none;
+    color: white;
+    text-align: right;
+    padding: 10px;
+}
+
+button.min {
+    min-height: 50px;
+    min-width: 100px;
+}
+
+*.first {
+    margin-top: 0px !important;
+}
+
+/* ======== Drop Downs ========*/
